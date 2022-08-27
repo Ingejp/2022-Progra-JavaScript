@@ -15,5 +15,29 @@
         <input type="text" id="nombre"><br>
         <input type="text" id="correo" name="correo"><br>
         <input type="button" value="Copiar texto" onclick="manipularElementosDelDom()">
+        
+             
+         <input type="button" name="" value="Agregar Elementos en Ejecusion" onclick="crearElementosEnEjecusion();"><br>
+        <input type="button" name="" value="Eliminar Elementos" onclick="eliminarElementosEnEjecusion();"><br>
+        <input type="button" name="" value="Desestructurar Arrays" onclick="desestructurarArrays();"><br>
+        <input type="button" name="" value="Try Catch" onclick="manejoDeExcepciones();"><br>
+        
+     <form id="contact-form" role="form">
+          <div class="form-group has-feedback">
+            <input type="text" class="form-control" id="name" name="name" placeholder="Nombre" required>
+          </div>
+          <div class="form-group has-feedback">
+            <input type="email" class="form-control" id="email" name="email" placeholder="Correo electronico" required>
+          </div>
+
+          <div class="form-group has-feedback">
+            <input type="button" value="Enviar Opcion 1" onclick="enviarFormulario()" class="submit-button btn btn-default">
+            <input type="button" value="Enviar Opcion 2" onclick="enviarFormularioOpcion2()" class="submit-button btn btn-default">
+          </div>
+    </form>
+        <div id='principal'></div>
+      </div>
+        
+        
     </body>
 </html>
